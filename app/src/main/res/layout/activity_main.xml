@@ -133,11 +133,15 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="403dp"
-        android:layout_height="407dp"
+        android:layout_width="291dp"
+        android:layout_height="335dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912"
         app:srcCompat="@drawable/andy"
-        app:tint="#A6E03E"
-        tools:layout_editor_absoluteX="-67dp"
-        tools:layout_editor_absoluteY="115dp" />
+        app:tint="#A6E03E" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
